@@ -6,7 +6,7 @@
 </div>
 <br />
 <p dir='rtl'>
-پس از این که ثبت نام تکمیل شود یک اس ام اس حوای یک کد به شماره ثبت نام کننده ارسال می شود.     
+پس از این که ثبت نام تکمیل شود یک اس ام اس حاوی یک کد به شماره ثبت نام کننده ارسال می شود.     
 </p>
 
 URL
@@ -151,5 +151,17 @@ Response:
   "StatusCode": 200,
   "Message": "The code successfully sent. code:406690",
   "IsSuccess": true
+}
+```
+
+Headers
+
+```
+{
+  "connection": "keep-alive",
+  "content-length": "97",
+  "content-type": "application/json; charset=utf-8",
+  "date": "Sun, 05 Aug 2018 09:16:28 GMT",
+  "x-verify-code": "The code successfully sent. code:406690"
 }
 ```
